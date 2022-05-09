@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio práctico</title>
+    <!--para la tipografia, añadimos link sobretodo encima del custom-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,600;0,900;1,100;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./sass/reducido.css">
+
+</head>
+<body>
+    <main class="container d-flex align-items-center justify-content-center alto-100">
+        <div class="row">
+            <!-- columna izquierda. siempre empezar por 12-->
+            <div class="col-12 col-lg-9 bg-white">
+                <div class="row">
+                    <!--añadimos padding para separar los cuadros entre ellos (p-2)-->
+                    <div class="col-12 col-lg-8 p-2">
+                        <!--para añadir un cuadro dentro redondeado, components - card. al lado de cada card añado h-100 para ocupar todo su cuadro, sino el cuadrado se adapta a la cantidad de letra. El color lo sacamos de las columnas y lo ponemos en las cards-->
+                        <article class="card h-100  bg-primary fondo-card shadow-sm">
+                            <div class="card-body">
+                                <!--como queremos añadir imagen y al lado texto, haremos un flex. Añadimos margen abajo con mb-numero -->
+                                <div class="d-flex mb-3">
+                                    <!--para poner imagen redonda y con borde-->
+                                    <img src="./images/image-daniel.jpg" class="rounded-circle border border-white border-3" >
+                                    <!--para poner distancia entre la foto y el texto (ps). solo en tamaño grande-->
+                                    <div class="ps-lg-3">
+                                        <h6 class="m-0 text-white">Daniel Clifford</h6>
+                                        <p class="m-0 h6">Programador front-end</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6 text-white">Una vez tienes un empleo y llevas unos cuantos años en el sector, puedes llegar a hacer una estimación de como va a ser tu vida en términos de días de vacaciones que vas a poder disfrutar. Esto es independiente de la empresa para la que trabajes.</p>
+                                    <p class="fs-6 lh-1">Las matemáticas son sencillas: Si tenemos 23 días festivos al año y vamos a trabajar por lo menos 40 años mas, tenemos a nuestra disposición 920 días de vacaciones antes de jubilarnos. 920 días son aproximadamente 2 años y medio.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2">
+                        <article class="card h-100 bg-success shadow-sm">
+                            <div class="card-body">
+                                <!--como queremos añadir imagen y al lado texto, haremos un flex-->
+                                <div class="d-flex mb-3">
+                                    <!--para poner imagen redonda y con borde-->
+                                    <img src="./images/image-jonathan.jpg" class="rounded-circle border border-white border-3" >
+                                    <!--para poner distancia entre la foto y el texto (ps). solo en tamaño grande-->
+                                    <div class="ps-lg-3">
+                                        <h6 class="m-0 text-white">Jonathan</h6>
+                                        <p class="m-0 h6">Programador back-end</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6 text-white">Una vez tienes un empleo y llevas unos cuantos años en el sector, puedes llegar a hacer una estimación de como va a ser tu vida en términos de días de vacaciones que vas a poder disfrutar. Esto es independiente de la empresa para la que trabajes.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2">
+                        <article class="card h-100 bg-white shadow-sm">
+                            <div class="card-body">
+                                <!--como queremos añadir imagen y al lado texto, haremos un flex-->
+                                <div class="d-flex mb-3">
+                                    <!--para poner imagen redonda y con borde-->
+                                    <img src="./images/image-jeanette.jpg" class="rounded-circle border border-white border-3" >
+                                    <!--para poner distancia entre la foto y el texto (ps). solo en tamaño grande-->
+                                    <div class="ps-lg-3">
+                                        <h6 class="m-0">Jeanette</h6>
+                                        <p class="m-0 h6">Marqueting</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">Una vez tienes un empleo y llevas unos cuantos años en el sector, puedes llegar a hacer una estimación de como va a ser tu vida en términos de días de vacaciones que vas a poder disfrutar. Esto es independiente de la empresa para la que trabajes.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-8 p-2">
+                        <article class="card h-100 bg-dark text-white shadow-sm">
+                            <div class="card-body">
+                                <!--como queremos añadir imagen y al lado texto, haremos un flex-->
+                                <div class="d-flex mb-3">
+                                    <!--para poner imagen redonda y con borde-->
+                                    <img src="./images/image-patrick.jpg" class="rounded-circle border border-white border-3" >
+                                    <!--para poner distancia entre la foto y el texto (ps). solo en tamaño grande-->
+                                    <div class="ps-lg-3">
+                                        <h6 class="m-0">Patrick</h6>
+                                        <p class="m-0 h6 text-success">Maquetador</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">Una vez tienes un empleo y llevas unos cuantos años en el sector, puedes llegar a hacer una estimación de como va a ser tu vida en términos de días de vacaciones que vas a poder disfrutar. Esto es independiente de la empresa para la que trabajes.</p>
+                                    <p class="fs-6 lh-1 text-success">Las matemáticas son sencillas: Si tenemos 23 días festivos al año y vamos a trabajar por lo menos 40 años mas, tenemos a nuestra disposición 920 días de vacaciones antes de jubilarnos. 920 días son aproximadamente 2 años y medio.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- columna izquierda-->
+            <div class="col-12 col-lg-3 p-2">
+                <article class="card h-100 bg-white shadow-sm">
+                    <div class="card-body">
+                        <!--como queremos añadir imagen y al lado texto, haremos un flex-->
+                        <div class="d-flex mb-3">
+                            <!--para poner imagen redonda y con borde-->
+                            <img src="./images/image-kira.jpg" class="rounded-circle border border-white border-3" >
+                            <!--para poner distancia entre la foto y el texto (ps). solo en tamaño grande-->
+                            <div class="ps-lg-3">
+                                <h6 class="m-0">Kira</h6>
+                                <p class="m-0 h6">CETO</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="h6">Una vez tienes un empleo y llevas unos cuantos años en el sector, puedes llegar a hacer una estimación de como va a ser tu vida en términos de días de vacaciones que vas a poder disfrutar. Esto es independiente de la empresa para la que trabajes.</p>
+                            <p class="fs-6 lh-1">Las matemáticas son sencillas: Si tenemos 23 días festivos al año y vamos a trabajar por lo menos 40 años mas, tenemos a nuestra disposición 920 días de vacaciones antes de jubilarnos. 920 días son aproximadamente 2 años y medio.</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
